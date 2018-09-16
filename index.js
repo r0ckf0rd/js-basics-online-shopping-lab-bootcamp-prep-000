@@ -33,6 +33,7 @@ function viewCart() {
       return inYourCart
     }
   }
+  }
 }
 
 function total() {
