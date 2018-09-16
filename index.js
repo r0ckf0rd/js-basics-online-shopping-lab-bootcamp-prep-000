@@ -47,7 +47,7 @@ function total() {
 }
 
 function removeFromCart(item) {
-  cart.splice(cart.indexOf(item), 1 )
+  cart.splice(cart.indexOf(item)-1, 1 )
 }
 
 function placeOrder(cardNumber) {
