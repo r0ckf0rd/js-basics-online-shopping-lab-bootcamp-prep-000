@@ -26,6 +26,7 @@ function viewCart() {
   for (var i = 0; i < cart.length; i++) {
     if (i === cart.length - 1) {
       inYourCart = `${inYourCart} ${cart[i].itemName} at $${cart[i].itemPrice}.`
+      return inYourCart
     }
   }
 }
