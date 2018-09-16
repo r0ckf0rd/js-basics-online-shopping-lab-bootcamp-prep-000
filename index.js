@@ -38,8 +38,6 @@ function viewCart() {
     }
  
     return inYourCart 
-    }
-  }
   }
 }
 
