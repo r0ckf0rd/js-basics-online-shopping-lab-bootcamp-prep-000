@@ -1,5 +1,5 @@
 var cart = [];
-var cartCount = cart.length
+
 
 function getCart() {
  return cart;
@@ -11,6 +11,7 @@ function setCart(c) {
 }
 
 function addToCart(item) {
+  var cartCount = cart.length
  cart[cartCount] = {itemName: `${item}`, itemPrice: Math.floor(Math.random()*100) }
  return `${item} has been added to your cart.`
 }
