@@ -33,12 +33,9 @@ function viewCart() {
       else {
         inYourCart = `${inYourCart} ${cart[i].itemName} at $${cart[i].itemPrice}, `
       }
-      
-      
     }
- 
-    return inYourCart 
   }
+  return inYourCart
 }
 
 function total() {
