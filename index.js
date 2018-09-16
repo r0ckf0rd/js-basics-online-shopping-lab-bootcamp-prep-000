@@ -37,10 +37,9 @@ function viewCart() {
       
     }
  
-     return inYourCart 
+    return inYourCart 
     }
   }
-  return inYourCart
   }
 }
 
