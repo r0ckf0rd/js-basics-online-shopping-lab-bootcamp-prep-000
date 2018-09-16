@@ -23,7 +23,7 @@ function viewCart() {
     return "Your shopping cart is empty."
   }
   if (cart.length === 1) {
-    return `${inYourCart} ${cart[i].itemName} at $${cart[i].itemPrice}.`
+    return `${inYourCart} ${cart[0].itemName} at $${cart[0].itemPrice}.`
   }
   if (cart.length > 1) {
   for (var i = 0; i < cart.length; i++) {
