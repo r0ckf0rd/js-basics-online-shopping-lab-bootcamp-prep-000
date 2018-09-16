@@ -43,7 +43,7 @@ function total() {
   for (var i = 0; i < cart.length; i++) {
     totalValue = totalValue + parseInt(cart[i].itemPrice)
   }
-  
+  return totalValue
 }
 
 function removeFromCart(item) {
