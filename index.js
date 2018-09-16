@@ -16,8 +16,9 @@ function addToCart(item) {
  return `${item} has been added to your cart.`
 }
 
+
+
 function viewCart() {
-  
   
 }
 
